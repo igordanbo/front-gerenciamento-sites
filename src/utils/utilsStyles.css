@@ -1,0 +1,29 @@
+.badge-render-status {
+  padding: 5px 15px;
+  border-radius: 16px;
+}
+
+.badge-render-status-agendada {
+  border: solid 1px var(--warning);
+  color: var(--warning);
+}
+
+.badge-render-status-concluida {
+  border: solid 1px var(--success);
+  color: var(--success);
+}
+
+.badge-render-status-cancelada {
+  border: solid 1px var(--danger);
+  color: var(--danger);
+}
+
+.badge-render-status-frozen {
+  border: solid 1px #1367c1;
+  color: #1367c1;
+}
+
+.badge-render-status-cancelada {
+  border: solid 1px #c1136d;
+  color: #c1136d;
+}

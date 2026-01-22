@@ -1,0 +1,115 @@
+.container-grid-dashboard-page {
+  display: flex;
+  flex-direction: column;
+  /*grid-template-columns: repeat(2, 1fr);*/
+  gap: 32px;
+}
+
+.container-grid-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.container-charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.container-charts .container-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background-color: #00000005;
+  border-radius: 24px;
+}
+
+.container-charts .container-chart-single {
+  background-color: #00000005;
+  border-radius: 24px;
+}
+
+.container-charts .container-total h2 {
+  font-size: 68px;
+}
+
+.container-por-status {
+  background-color: #00000005;
+  padding: 24px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.container-por-status div h2 {
+  margin-bottom: 12px;
+}
+
+.grid-stat-item {
+  display: flex;
+  gap: 12px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.stat-item span {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.stat-item strong {
+  font-size: 32px;
+}
+
+.grid-stat-item div {
+  min-width: 100px;
+}
+
+.grid-stat-item .inactive {
+  border: solid 2px #d9d9d9;
+  background-color: #00000005;
+}
+
+.grid-stat-item .canceled {
+  border: solid 2px var(--danger);
+  background-color: #ff000010;
+}
+
+.grid-stat-item .active {
+  border: solid 2px var(--success);
+  background-color: #00ff0010;
+}
+
+.grid-stat-item .frozen_domain,
+.grid-stat-item .wordpress {
+  border: solid 2px #1981d1;
+  background-color: #1981d110;
+}
+
+.grid-stat-item .lost_domain,
+.grid-stat-item .opencart {
+  border: solid 2px #c215ba;
+  background-color: #c215ba10;
+}
+
+.grid-stat-item .maintenance,
+.grid-stat-item .outros,
+.grid-stat-item .external {
+  border: solid 2px #ff9d00;
+  background-color: #ff9d0010;
+}
+
+.grid-stat-item .laon {
+  border: solid 2px #000;
+  background-color: #00000010;
+}
